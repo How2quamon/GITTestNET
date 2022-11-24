@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Views\DemoNET\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\DemoNET\" />
+  </ItemGroup>
 </Project>
