@@ -7,11 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+
     <Compile Remove="Controllers\VN.Controller.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Controllers\VN.Controller.cs" />
+  </ItemGroup>
+
+
+    <None Remove="Views\DemoNET\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\DemoNET\" />
   </ItemGroup>
 
 </Project>
