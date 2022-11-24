@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Views\DemoNET\" />
+    <None Remove="Views\TL_TestNET\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\DemoNET\" />
+    <Folder Include="Views\TestNET\" />
   </ItemGroup>
 </Project>
